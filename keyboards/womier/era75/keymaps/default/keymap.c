@@ -50,6 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		_______, _______, RGB_TOG, RGB_MOD, RGB_HUI, _______, _______, _______, _______, _______, KC_PAUS, _______, _______, RGB_VAI, _______,
 		_______, _______, _______,                   _______,                            _______, _______,          RGB_SPD, RGB_VAD, RGB_SPI)
 };
+
 #if defined(ENCODER_MAP_ENABLE)
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
     [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },

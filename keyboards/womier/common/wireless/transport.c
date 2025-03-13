@@ -10,6 +10,7 @@
 #    define USB_POWER_DOWN_DELAY 3000
 #endif
 
+
 bool keyboard_protocol;
 
 extern host_driver_t chibios_driver;
