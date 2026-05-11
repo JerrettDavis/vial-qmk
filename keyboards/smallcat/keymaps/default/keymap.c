@@ -25,3 +25,11 @@ combo_t key_combos[] = {
     COMBO(combo_j, KC_J),
     COMBO(combo_k, KC_K),
 };
+
+uint16_t combo_count(void) {
+    return ARRAY_SIZE(key_combos);
+}
+
+combo_t *combo_get(uint16_t combo_idx) {
+    return &key_combos[combo_idx];
+}

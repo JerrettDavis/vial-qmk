@@ -69,4 +69,12 @@ combo_t key_combos[] = {
   [COMBO_DEL] = COMBO(combo_del,KC_DEL),
 
 };
+
+uint16_t combo_count(void) {
+  return ARRAY_SIZE(key_combos);
+}
+
+combo_t *combo_get(uint16_t combo_idx) {
+  return &key_combos[combo_idx];
+}
 #endif
